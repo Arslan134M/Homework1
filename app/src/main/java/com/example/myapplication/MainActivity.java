@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView=findViewById(R.id.Characters);
         ArrayList <String> chr =new ArrayList<String>();
         char x='A';
-        for (int i = 0; i <27 ; i++,x++)
+        for (int i = 1; i <27 ; i++,x++)
         {
             chr.add(Character.toString(x));
             ArrayAdapter <String> y=new ArrayAdapter <String> ( this, android.R.layout.simple_list_item_1,chr);
